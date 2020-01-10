@@ -36,6 +36,8 @@ a {
   color: inherit;
   text-decoration: none;
   display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 .wrapper {
@@ -95,6 +97,7 @@ p {
   position: sticky;
   width: 100%;
   top: 0;
+  z-index: 10;
 }
 
 .top-nav .wrapper {
@@ -113,8 +116,14 @@ p {
   justify-content: space-between;
 }
 
-.top-nav ul a:hover {
-  text-decoration: line-through;
+.top-nav ul a {
+  padding-bottom: 3px;
+  border-bottom: 3px solid transparent;
+}
+
+.top-nav ul a:hover,
+.top-nav ul a:focus {
+  border-bottom: 3px solid #ffa85c;
 }
 
 /* header styles */
@@ -223,6 +232,13 @@ footer .wrapper {
   .projects li:nth-of-type(odd) a {
     margin-left: 0;
   }
+}
+
+
+/* Project page */
+.project-header {
+  background: #f2f2f2;
+
 }
 
 @media (max-width: 515px) {
