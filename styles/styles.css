@@ -1,19 +1,3 @@
-/*
-Body font-family: 'Open Sans', sans-serif;
-Name font-family: 'Righteous', cursive;
-Title font-family: 'Montserrat', sans-serif;
-
-Dark text: #463B41
-Light text: #f9f2f6
-Peach card borders: #f8d7bd
-Nav bar light peach #fff6ef
-
-Button background hover/active: #ffa85c
-Button background: #f8e6e1
-Button text: dark text
-
-*/
-
 html {
   font-size: 62.5%;
 }
@@ -250,6 +234,11 @@ section .flex-container {
   align-items: center;
 }
 
+.small-desc {
+  margin-right: 60px;
+}
+
+
 .last-section {
   margin: 80px auto;
 }
@@ -325,6 +314,9 @@ section .flex-container {
     align-items: center;
     justify-content: center;
     align-content: center;
+  }
+  .small-desc {
+    margin-right: 0;
   }
 }
 
